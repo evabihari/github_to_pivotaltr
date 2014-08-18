@@ -1,0 +1,10 @@
+Convert all open github tickets to a PivotalTracker project's Icebox as new strories
+
+   1. Change the constants below accordingly for your project.
+   2. Change the options in list_repo() method for your GitHub project.
+   3. Change the options in stories.create() method accordingly.
+   4. Change the options in notes.create() method accordingly.
+   5. gem install github_api
+   6. gem install pivotal-tracker
+   7. Save this code to a .rb file (github_to_pivotaltr.rb), and chmod it executable [775].
+   8. Run this file: ./github_to_pivotaltr.rb
